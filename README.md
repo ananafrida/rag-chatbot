@@ -1,2 +1,2 @@
 # rag-chatbot
-A chatbot for answering mit app inventor questions
+A chatbot for answering problem-solving questions
