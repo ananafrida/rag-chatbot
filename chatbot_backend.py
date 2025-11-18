@@ -18,8 +18,7 @@ session = boto3.Session(
     region_name=os.environ["AWS_DEFAULT_REGION"]
 )
 
-boto3_bedrock = session.client("bedrock-runtime", region_name="us-east-2")
-boto3_kb = session.client("bedrock-agent-runtime", region_name="us-east-2")
+boto3_kb = session.client("bedrock-agent-runtime")
 
 llm_arn = "arn:aws:bedrock:us-east-2::foundation-model/meta.llama3-3-70b-instruct-v1:0"
 kb_id = "OHKEXQ6U4M"
