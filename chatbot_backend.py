@@ -1,6 +1,5 @@
 import boto3
 import json
-from langchain_community.llms.bedrock import Bedrock
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from dotenv import load_dotenv
